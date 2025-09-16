@@ -397,7 +397,7 @@ export default function Contact() {
                       variant="contained"
                       startIcon={<LinkedInIcon />}
                       endIcon={<LaunchIcon />}
-                      href="https://www.linkedin.com/in/yourlinkedin/"
+                      href="https://www.linkedin.com/in/bhagavath-t-s-520594348/"
                       target="_blank"
                       sx={{
                         px: { xs: 3, sm: 4 },
