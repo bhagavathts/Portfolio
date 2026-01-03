@@ -30,7 +30,11 @@ import {
   ArrowBackIos as ArrowBackIcon,
   ArrowForwardIos as ArrowForwardIosIcon,
 } from "@mui/icons-material";
-
+import thome from "../assets/thome.png"
+import tdashboard from "../assets/tdashboard.png"
+import tstatus from "../assets/tstatus.png"
+import tlogin from "../assets/tlogin.png"
+import tcreate from "../assets/tcreate.png"
 // Actual image imports
 const home = homes;
 const products = product;
@@ -59,12 +63,24 @@ const projectList = [
     description:
       "Professional aquarium products marketplace with comprehensive admin dashboard, real-time inventory management, and enhanced user experience. Engineered for scalability and performance.",
     technologies: ["Express", "React", "MongoDB", "Material-UI"],
-    link:" https://github.com/bhagavathts/Aquashop",
+    link: "https://github.com/bhagavathts/Aquashop",
     screenshots: [ahome, adetail, aproducts, admin, user],
     gradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
     accentColor: "#f5576c",
   },
+  {
+    title: "Task Tracker",
+    description:
+      "A productivity-focused task management application with secure authentication, user-specific tasks, status-based categorization, and an intuitive dashboard. Designed to improve task organization and efficiency.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Material-UI"],
+    link: "https://github.com/bhagavathts/Task_Dashboard",
+    website: "https://tasktrackerdashboard.netlify.app", // 👈 add live site here
+    screenshots: [thome, tlogin, tdashboard, tcreate, tstatus],
+    gradient: "linear-gradient(135deg, #43cea2 0%, #185a9d 100%)",
+    accentColor: "#185a9d",
+  },
 ];
+
 
 export default function Projects() {
   const [hoveredCard, setHoveredCard] = useState(null);
